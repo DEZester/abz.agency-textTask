@@ -1,0 +1,36 @@
+@import '../../mixins.scss';
+
+.header {
+  background: #fff;
+  @include for-2560px {
+    width: 2560px;
+    display: flex;
+    justify-content: center;
+  }
+  &__logo {
+    width: 104px;
+    height: 26px;
+    margin-right: auto;
+  }
+  &__btn-container {
+    width: 210px;
+    height: 34px;
+  }
+}
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 0 16px;
+  @include for-768px {
+    padding: 0 32px;
+  }
+  @include for-1024px {
+    padding: 0 60px;
+  }
+  @include for-2560px {
+    width: 1170px;
+    padding: 0;
+  }
+}
