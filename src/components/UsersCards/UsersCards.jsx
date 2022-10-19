@@ -7,6 +7,11 @@ const UsersCards = () => {
         <h1 className="usersCards__title">Working with GET request</h1>
         <div className="usersCards__container">
           <UserCard />
+          <UserCard />
+          <UserCard />
+          <UserCard />
+          <UserCard />
+          <UserCard />
         </div>
         <button className="default-btn">Show more</button>
       </div>

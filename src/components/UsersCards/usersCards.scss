@@ -9,8 +9,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 328px;
+  max-width: 1170px;
   margin: 140px 0;
+  @include for-768px {
+    margin: 140px 32px;
+  }
+  @include for-1024px {
+    margin: 140px 60px;
+  }
+  @include for-2560px {
+    margin: 140px 0;
+  }
   &__title {
     margin: 0;
     font-family: 'Nunito';
@@ -20,5 +29,17 @@
     line-height: 40px;
     text-align: center;
     color: rgba(0, 0, 0, 0.87);
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 50px 0;
+    @include for-768px {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
