@@ -4,16 +4,14 @@
 @import './mixins.scss';
 
 body {
+  display: flex;
+  justify-content: center;
   width: 100vw;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
   background: $background-color;
-  @include for-2560px {
-    display: flex;
-    justify-content: center;
-  }
 }
 .default-btn {
   height: 34px;
