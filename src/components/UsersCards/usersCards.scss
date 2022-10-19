@@ -1,0 +1,24 @@
+.getRequest {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usersCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 328px;
+  margin: 140px 0;
+  &__title {
+    margin: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.87);
+  }
+}
