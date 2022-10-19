@@ -1,11 +1,11 @@
 import Header from './components/Header/Header';
-import LandingPage from './components/LandingPage/LandingPage';
+import MainInfo from './components/MainInfo/MainInfo';
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <LandingPage />
+      <MainInfo />
     </div>
   );
 }
