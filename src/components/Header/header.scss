@@ -2,7 +2,7 @@
 
 .header {
   background: #fff;
-  width: 100vw;
+  width: 100%;
   @include for-2560px {
     display: flex;
     justify-content: center;
